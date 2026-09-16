@@ -7,7 +7,7 @@ import LoginPage from './pages/LoginPage'
 import RegisterPage from './pages/RegisterPage'
 import MainPage from './pages/MainPage'
 import toast from "react-hot-toast";
-import ProtectedRoute from './Components/protectedRoute'
+import ProtectedRoute from './Components/ProtectedRoute'
 
 const App = () => {
   return (
