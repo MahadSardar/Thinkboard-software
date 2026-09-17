@@ -72,7 +72,7 @@ const LoginPage = () => {
                     disabled={loading}
                     className="w-full bg-primary text-white font-semibold rounded-lg py-3 text-sm hover:bg-primary/90 transition disabled:opacity-60"
                 >
-                    {loading ? "Logging in..." : "Log In"}
+                    {loading ? "Logging in..Please wait few sec" : "Log In"}
                 </button>
             </form>
 
