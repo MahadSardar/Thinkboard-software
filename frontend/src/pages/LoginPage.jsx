@@ -17,7 +17,7 @@ const LoginPage = () => {
         setLoading(true)
         try {
             const res = await api.post("/auth/login",{email,password})
-            localStorage.setItem("token",(await res).data.token)
+            localStorage.setItem("token",res.data.token)
             navigate("/homepage")
         } catch (error) {
             console.log(error.response.data.message)
